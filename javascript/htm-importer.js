@@ -5,7 +5,7 @@ class importer {
         try {
             const currentScript = document.currentScript;
             const currentScriptParent = currentScript.parentElement;
-            const result = await fetch(pathToHtm, { method: "GET" }).then(response => response.text());
+            const result = await fetch(pathToHtm, { method: "GET", cache:'no-cache' }).then(response => response.text());
             const container = document.createElement("div");
             container.innerHTML = result;
             const containerChildren = Array.from(container.children);
