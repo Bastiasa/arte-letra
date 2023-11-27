@@ -1,6 +1,6 @@
 
 #main-form {
-    width: 500px;
+    width: min(500px, 100%);
     margin-left: auto; margin-right: auto;
 }
 
