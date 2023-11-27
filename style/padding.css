@@ -1,0 +1,25 @@
+.no-padding {padding: 0 !important;}
+
+.normal-padding {padding: var(--margin-normal);}
+.small-padding {padding: var(--margin-small);}
+.medium-padding {padding: var(--margin-medium);}
+
+.exclude-top-padding {padding-top: 0;}
+.exclude-right-padding {padding-right: 0;}
+.exclude-left-padding {padding-left: 0;}
+.exclude-bottom-padding {padding-bottom: 0;}
+
+.top-normal-padding {padding-top: var(--margin-normal);}
+.right-normal-padding {padding-right: var(--margin-normal);}
+.bottom-normal-padding {padding-bottom: var(--margin-normal);}
+.left-normal-padding {padding-left: var(--margin-normal);}
+
+.top-small-padding {padding-top: var(--margin-small);}
+.right-small-padding {padding-right: var(--margin-small);}
+.bottom-small-padding {padding-bottom: var(--margin-small);}
+.left-small-padding {padding-left: var(--margin-small);}
+
+.top-medium-padding {padding-top: var(--margin-medium);}
+.right-medium-padding {padding-right: var(--margin-medium);}
+.bottom-medium-padding {padding-bottom: var(--margin-medium);}
+.left-medium-padding {padding-left: var(--margin-medium);}

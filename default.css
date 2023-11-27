@@ -1,0 +1,148 @@
+header#top-menu {
+    position: sticky;
+    display: flex;
+
+    justify-content: space-between;
+    
+    height: 50px;
+    border-bottom: 1px solid gray;
+
+    top: 0;
+
+    left: 0;
+    right: 0;
+    
+    background-color: white;
+
+    padding-right: 8px;
+    z-index: 999;
+
+}
+
+main#content {
+    width: 100%;
+    max-width: 800px;
+
+    box-sizing: border-box;
+
+    margin-left: auto; margin-right: auto;
+}
+
+main#content > p {
+    text-align: justify;
+}
+
+img#top-menu-logo {
+    vertical-align: middle;
+    padding: 7px;
+}
+
+header#top-menu > div#top-menu-links-container > a {
+    text-transform: uppercase;
+
+    padding: 10px;
+    padding-top: 16px;
+
+    vertical-align: middle;
+
+    box-sizing: border-box;
+    width: fit-content;
+
+    text-wrap: nowrap;
+
+    background-color: transparent;
+    color: black;
+
+    transition: color 200ms ease;
+    transition-property: background-color, color;
+}
+
+#top-menu-links-container {
+
+    flex-wrap: nowrap;
+
+    overflow-y: hidden;
+    overflow-x: auto;
+
+    margin-left: 50px;
+    
+}
+
+footer#bottom-info {
+    border-top: 1px solid black;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+footer#bottom-info > section {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+
+footer#bottom-info > section > * {
+    margin: 0 0 8px 0;
+}
+
+footer#bottom-info > section > *:last-child {
+    margin: 0;
+}
+
+footer#bottom-info > section > ul {
+    width: fit-content;
+    margin-right: auto !important; margin-left: auto !important;
+}
+
+footer#bottom-info > section *:not(ul li, ul) {
+    text-align: center;
+}
+
+header#top-menu > div#top-menu-links-container > a:hover {
+    color: white;
+    background-color: black;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    border-radius: 4px;
+    border: 1px solid gray;
+    transition: all 200ms ease;
+    transform: scale(1);
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=tel]:focus,
+textarea:focus {
+    border-radius: 6px;
+    transform: scale(1.04);
+    outline: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+button,
+input[type=submit] {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: black;
+    transition: all 200ms ease;
+    transform: scale(1);
+}
+
+button:hover,
+input[type=submit]:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+

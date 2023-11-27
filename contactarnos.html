@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/favicon.webp" type="image/x-icon">
+
+    <link rel="stylesheet" href="contactarnos.css">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="style/classes.css">
+
+    <title>Arte Letra</title>
+</head>
+<body>
+    <script type="module" src="javascript/images-loader.js"></script>
+    <script src="javascript/tab-manager.js"></script>
+    <script src="javascript/htm-importer.js"></script>
+
+    <script>importer.here("htm/header.htm")</script>
+    <!--CONTENT BEGIN-->
+
+    <main id="content" class="vertical-box center-box normal-padding">
+        <h2>Resuelve tus dudas</h2>
+
+        <p>
+            Para contactarnos puedes usar este formulario para enviar un mensaje rápidamente en caso de que tengas dudas, sugerencias, solicitudes, etc.
+        </p>
+
+        <form method="post" class="fit-width" id="main-form" action="contactar.php">
+            <input required placeholder="Nombre completo*" type="text" name="sender-name" id="sender-name">
+            <input required placeholder="Correo electrónico*" type="email" name="sender-email" id="sender-email">
+            <input type="tel" name="sender-tel" id="" required="required" placeholder="Número de teléfono*">
+            <textarea name="message-content" id="message-content" required="required" placeholder="Escribe tu mensaje aquí."></textarea>
+            <input type="submit" value="Enviar mensaje">
+        </form>
+    </main>
+
+    <!--CONTENT ENDs-->
+    <script>importer.here("htm/footer.htm")</script>
+</body>
+</html>

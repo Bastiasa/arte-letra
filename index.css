@@ -1,0 +1,8 @@
+#authors-images-box img {
+    width: 100%;
+}
+
+#authors-images-box .author-container {
+    width: 100%;
+    max-width: calc((700px / 2) - 10px);
+}

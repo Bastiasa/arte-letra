@@ -1,0 +1,10 @@
+.italic {
+    font-style: italic;
+}
+
+.italic-gray {
+    font-style: italic;
+    color: rgb(162, 162, 162);
+}
+
+.text-align-center {text-align: center;}
